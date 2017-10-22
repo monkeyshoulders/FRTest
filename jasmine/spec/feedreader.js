@@ -94,9 +94,16 @@ $(function() {
      * Remember, loadFeed() is asynchronous so this test will require
      * the use of Jasmine's beforeEach and asynchronous done() function.
      */
-     
+     beforeEach(function(done) {
+       loadFeed(function() {
+         done();
+       });
+     });
 
-
+     it('displays an entry after loadFeed is called', function() {
+       var content = $('body').hasClass('entry');
+       expect(content.display === 'block').toBe(true);
+     });
   });
 
 
