@@ -94,8 +94,6 @@ $(function() {
      * Remember, loadFeed() is asynchronous so this test will require
      * the use of Jasmine's beforeEach and asynchronous done() function.
      */
-     var feed = allFeeds;
-     var urls = feed.url;
      beforeEach(function(done) {
        loadFeed(function() {
          done();
