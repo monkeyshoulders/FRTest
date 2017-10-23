@@ -1,7 +1,7 @@
 # RSS Feed Reader Project FEND
 ---
 
-This project was created as a part of Udacity's Front End Nanodegree program. I was to take the resource materials that were provided and finish writing a test suite in Jasmine. I had to research the JavaScript and HTML files to gain a understanding of how the application worked and then reverse engineer the test suite to finish writing the test that would make the code pass.
+This project was created as a part of Udacity's Front End Nanodegree program. I was to take the resource materials that were provided and finish writing a test suite in Jasmine. I had to research the JavaScript and HTML files to gain a understanding of how the application worked and then reverse engineer the test suite to finish writing the test to make the code pass.
 
 ## How to Evaluate Project
 
