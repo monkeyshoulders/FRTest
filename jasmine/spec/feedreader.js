@@ -93,7 +93,7 @@ $(function() {
        * Remember, loadFeed() is asynchronous so this test will require
        * the use of Jasmine's beforeEach and asynchronous done() function.
        */
-      beforeEach(function() {
+      beforeEach(function(done) {
         loadFeed(0, function() {  // sims async loadFeed
           done();
         });
@@ -109,8 +109,9 @@ $(function() {
     describe('New Feed Selection', function() {
 
       var priorState;
+      var currentState;
 
-      beforeEach(function() {
+      beforeEach(function(done) {
         loadFeed(0, function() {
           done();
           priorState = $('.entry').html(); // saves previous loadFeed
@@ -127,7 +128,8 @@ $(function() {
        */
 
       it('content changes when loadFeed is called', function() {
-        expect('.entry').html()).not.toBe(priorState);  // determines whether loadFeed correctly loaded new content
+        currentState = $('.entry').html();
+        expect(currentState).not.toBe(priorState);  // determines whether loadFeed correctly loaded new content
       });
 
     });
