@@ -5,7 +5,7 @@ This project was created as a part of Udacity's Front End Nanodegree program. I 
 
 ## How to Evaluate Project
 
-This page can be evaluated for all layouts by running it via your machine. The first step is to download or clone this repository to your local machine. Open the index.html file and inspect the bottom of the page where the Jasmine console is located. Then enter the feedreader.js file spec folder to inspect the test that were written.
+This project can be evaluated by downloading the files via GitHub and running it via your machine. The first step is to download or clone this repository to your local machine. Open the index.html file and inspect the bottom of the page where the Jasmine console is located. Then enter the feedreader.js file in the spec folder to inspect the test that were written.
 
 ## Resources used
 
