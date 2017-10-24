@@ -59,7 +59,7 @@ $(function() {
       });
 
       it('displays after loadFeed is called', function() {
-        expect(('.feed .entry').length).toBeGreaterThan(0);   // checks for loadFeed to work
+        expect($('.feed .entry').length).toBeGreaterThan(0);   // checks for loadFeed to work
       });
     });
 
