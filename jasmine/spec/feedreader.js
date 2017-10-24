@@ -73,7 +73,8 @@ $(function() {
         loadFeed(0, function() {
           priorState = $('.entry').html(); // saves previous loadFeed
 
-          loadFeed(1, function() { // reloads loadFeed            done();
+          loadFeed(1, function() { // reloads loadFeed
+            done();
           });
         });
       });
